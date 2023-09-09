@@ -9,7 +9,7 @@ body {
     text-align: center;
     margin: 0 auto;
     max-width: 1000px;
-    height: 100vh;
+    height: 100%;
     background: rgb(239, 239, 252);
 }
 
@@ -28,8 +28,8 @@ body {
 
 .profileImg {
     border-radius: 15px;
-    width: 250px;
-    height: 300px;
+    width: 200px;
+    height: 250px;
     object-fit: cover;
     object-position: center;
     margin-top: 50px;
@@ -100,6 +100,14 @@ button:focus {
         display: flex;
         flex-direction: row;
         gap: 30px;
+    }
+    .profileImg {
+        border-radius: 15px;
+        width: 250px;
+        height: 300px;
+        object-fit: cover;
+        object-position: center;
+        margin-top: 50px;
     }
 }
 
