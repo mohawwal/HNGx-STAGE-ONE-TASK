@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="/style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Frontend Task-1</title>
+  </head>
+  <body>
+    <div class="Profile">Personal Data</div>
+    <div class="container">
+      <img class="profileImg" data-testId="slackDisplayImage" src="/img/awwal.JPG" alt="mohawwal" />
+      <div class="data">
+        <div id="userName" class="info">
+          <span class="info-title">Slack Name:</span>
+          <span class="data-info" data-testId="slackUserName"></span>
+        </div>
+        <div id="currentUTCTime" class="info">
+          <span class="info-title">Day Of The Week:</span>
+          <span class="data-info" data-testId="currentDayOfTheWeek"></span>
+        </div>
+        <div id="currentDayOfTheWeek" class="info">
+          <span class="info-title">Current UTC Track:</span>
+          <span class="data-info" data-testId="currentUTCTime"></span>
+        </div>
+        <div id="myTrack" class="info">
+          <span class="info-title">Track:</span>
+          <span class="data-info" data-testId="myTrack"></span>
+        </div>
+        <button data-testId="githubURL">
+          <a href="">Github Repository</a>
+        </button>
+      </div>
+  </body>
+  <script src="/script.js"></script>
+</html>
